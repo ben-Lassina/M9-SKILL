@@ -1,0 +1,30 @@
+{
+    "songs": [
+      {
+        "title": "Bohemian Rhapsody",
+        "artist": "Queen",
+        "duration": "5:55",
+        "mp3_url": "../muziek/Bohemian-Rhapsody.mp3"
+
+      },
+      {
+        "title": "Blinding Lights",
+        "artist": "The Weeknd",
+        "duration": "3:22",
+        "mp3_url": "../muziek/Flashing-Lights.mp3"
+      },
+      {
+        "title": "Imagine",
+        "artist": "John Lennon",
+        "duration": "3:04",
+        "mp3_url": "../muziek/IMAGINE.mp3"
+      },
+      {
+        "title": "Flashing Lights",
+        "artist": "Kanye West",
+        "duration": "3:57",
+        "mp3_url": "../muziek/Flashing-Lights.mp3"
+      }
+    ]
+  }
+  
