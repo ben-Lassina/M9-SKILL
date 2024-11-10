@@ -19,8 +19,16 @@
 
 .Song--button{
     height: 2.5rem;
-    border: 3px solid purple;
+    border: 3px solid white;
     border-radius: 10px;
-    color: purple;
-    background: white;
+    color: white;
+    background: black;
+}
+
+.Song--button:hover {
+    cursor: pointer;
+    background-color: azure;
+    color: black;
+    border-color: black;
+    transition: 0.4s;
 }

@@ -57,7 +57,7 @@ export function Songs({ songs }) {
     return (
         <div>
             <article className="CurrentSong" style={{backgroundImage: `url(${songs[currentIndex].image})`, backgroundColor: 'rgba(52, 52, 52, 0.8)'}}>
-                <button onClick={handlePrevClick} className="Song--icon">
+                <button onClick={handlePrevClick} className="Song--button">
                     Previous
                 </button>
                 <div className="Song--info">
@@ -65,11 +65,11 @@ export function Songs({ songs }) {
                     <p>{songs[currentIndex].artist}</p>
                     <p>{songs[currentIndex].duration}</p>
                     <p>Current Time: {Math.floor(seconds / 60)}:{Math.floor(seconds % 60).toString().padStart(2, '0')}</p>
-                    <button onClick={isPlaying ? pauseSong : playSong}>
+                    <button className='Song--button' onClick={isPlaying ? pauseSong : playSong}>
                         {isPlaying ? 'Pause' : 'Play'}
                     </button>
                 </div>
-                <button onClick={handleNextClick} className="Song--icon">
+                <button onClick={handleNextClick} className="Song--button">
                     Next
                 </button>
             </article>

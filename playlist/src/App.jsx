@@ -1,7 +1,8 @@
 import './App.css';
 import { Songs } from './components/songs';
 import skyline from '../images/new-york-skyline.jpg';
-import citylights from '../images/cityLights.jpg'
+import citylights from '../images/cityLights.jpg';
+import queen from '../images/queen.jpg'
 
 function App() {
     const songs = [
@@ -9,7 +10,8 @@ function App() {
                 title: "Bohemian Rhapsody",
                 artist: "Queen",
                 duration: "5:59",
-                url: "./muziek/Bohemian-Rhapsody.mp3"
+                url: "./muziek/Bohemian-Rhapsody.mp3",
+                image: queen
             },
             {
                 title: "Flashing Lights",
